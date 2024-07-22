@@ -1,5 +1,5 @@
 body {
-
+    
     margin: 0;
 
     display: flex;
@@ -8,23 +8,10 @@ body {
     
 }
 
-.section-one,
-footer {
-    background: #1f2937;
-}
-
-.section-three {
-    background: #E5E7EB;
-}
-
-.registration,
-button {
-    background: #3882F6;
-}
-
-#logo-header {
-    color:#F9FAF8;
-    font-size: 24px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -39,14 +26,44 @@ h2 {
     font-weight: 800;
 }
 
+.section-one,
+footer {
+    background: #1f2937;
+}
+
+.section-three {
+    background: #E5E7EB;
+}
+
+.section-four {
+    color: #F9FAF8;
+}
+
+#logo-header {
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
 .header-links,
 .info {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
+
+.registration,
+button {
+    background: #3882F6;
+}
+
+
+
+
