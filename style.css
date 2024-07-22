@@ -69,6 +69,11 @@ header {
     align-items: center;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .quote {
     color: #1F2937;
