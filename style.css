@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
 ul {
@@ -60,6 +60,7 @@ footer {
 
 .section-one {
     flex: 1;
+    padding: 0 150px 100px 150px;
 }
 
 header {
