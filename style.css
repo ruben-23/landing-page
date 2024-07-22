@@ -33,6 +33,9 @@ h2 {
     font-weight: 800;
 }
 
+a {
+    text-decoration: none;
+}
 .section-one,
 footer {
     background: #1f2937;
@@ -52,7 +55,7 @@ footer {
     font-size: 24px;
 }
 
-.header-links,
+a,
 .info {
     color: #E5E7EB;
     font-size: 18px;
@@ -61,6 +64,8 @@ footer {
 .section-one {
     flex: 1;
     padding: 0 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -72,6 +77,7 @@ header {
 .intro {
     display: flex;
     justify-content: space-between;
+    padding-top: 52px;
 }
 
 
