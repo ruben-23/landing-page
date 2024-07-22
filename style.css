@@ -54,6 +54,15 @@ footer {
     font-size: 18px;
 }
 
+.section-one {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 .quote {
