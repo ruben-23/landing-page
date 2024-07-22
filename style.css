@@ -95,7 +95,14 @@ header {
     align-items: center;
 }
 
+.courses {
+    display: flex;
+    justify-content: center;
+}
 
+.course {
+    width: 300px;
+}
 
 .quote {
     color: #1F2937;
