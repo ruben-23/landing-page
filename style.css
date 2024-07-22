@@ -93,16 +93,28 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 24px;
 }
 
 .courses {
     display: flex;
     justify-content: center;
+    gap: 32px;
+
 }
 
 .course {
     width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.course p {
+    text-align: center;
+}
+
 
 .quote {
     color: #1F2937;
