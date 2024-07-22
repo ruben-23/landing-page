@@ -14,3 +14,8 @@ footer {
 .section-three {
     background: #E5E7EB;
 }
+
+.registration,
+button {
+    background: #3882F6;
+}
