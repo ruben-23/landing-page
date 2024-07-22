@@ -62,7 +62,7 @@ a,
 }
 
 .section-one {
-    flex: 1;
+    /* flex: 1; */
     padding: 0 150px 100px 150px;
     display: flex;
     flex-direction: column;
@@ -75,9 +75,18 @@ header {
 }
 
 .intro {
+   
+    padding-top: 52px;
+    gap: 24px;
+
     display: flex;
     justify-content: space-between;
-    padding-top: 52px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro .info {
+    flex: 2;
 }
 
 
