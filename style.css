@@ -31,11 +31,13 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
 }
+
 .section-one,
 footer {
     background: #1f2937;
@@ -62,7 +64,6 @@ a,
 }
 
 .section-one {
-    /* flex: 1; */
     padding: 0 150px 100px 150px;
     display: flex;
     flex-direction: column;
@@ -88,6 +89,10 @@ header {
 .intro .info {
     flex: 2;
 }
+
+
+
+
 
 
 .quote {
