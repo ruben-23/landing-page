@@ -30,8 +30,13 @@ button {
 h1 {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 800;   
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
     font-weight: 800;
-    
 }
 
 .header-links,
