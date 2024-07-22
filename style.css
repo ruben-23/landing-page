@@ -4,3 +4,13 @@ body {
     justify-content: space-between;
     margin: 0;
 }
+
+
+.section-one,
+footer {
+    background: #1f2937;
+}
+
+.section-three {
+    background: #E5E7EB;
+}
