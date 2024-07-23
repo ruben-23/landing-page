@@ -122,7 +122,6 @@ header {
     justify-content: center;
 }
 
-
 .section-three {
     background: #E5E7EB;
 
@@ -133,7 +132,6 @@ header {
     padding: 32px;
 
 }
-
 
 .section-three p {
     display: flex;
@@ -154,11 +152,36 @@ header {
     font-weight: bold;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+    
+}
+
 .registration,
 button {
     background: #3882F6;
 }
 
+.registration {
+    width: 900px;
+    height: 100px;
 
+    padding: 24px 100px;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.registration p {
+    margin: 0;
+}
+
+.registration .p1 {
+    font-size: 18px;
+    font-weight: bold;
+}
