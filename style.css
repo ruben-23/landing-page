@@ -42,10 +42,6 @@ footer {
     background: #1f2937;
 }
 
-.section-three {
-    background: #E5E7EB;
-}
-
 .section-four,
 footer {
     color: #F9FAF8;
@@ -126,11 +122,36 @@ header {
     justify-content: center;
 }
 
+
+.section-three {
+    background: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 32px;
+
+}
+
+
+.section-three p {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    width: 700px;
+}
+
 .quote {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.credit {
+    padding-right: 152px;
+    font-weight: bold;
 }
 
 .registration,
