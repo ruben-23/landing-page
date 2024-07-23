@@ -80,8 +80,8 @@ header {
 }
 
 .intro {
-   
     padding-top: 52px;
+    margin-bottom: 100px;
     gap: 24px;
 
     display: flex;
