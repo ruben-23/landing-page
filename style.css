@@ -63,7 +63,12 @@ a,
 }
 
 .section-one {
-    padding: 0 150px 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one .content {
     display: flex;
     flex-direction: column;
 }
