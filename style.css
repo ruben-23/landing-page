@@ -220,10 +220,6 @@ button {
     border-radius: 5px;  
 }
 
-.text {
-    flex-shrink: 0;
-}
-
 .content .p1 {
     font-size: 18px;
     font-weight: 800;
