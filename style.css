@@ -192,6 +192,7 @@ header {
 
     padding: 24px 120px;
     margin: 100px 0;
+ 
 
     display: flex;
     justify-content: space-between;
@@ -202,6 +203,8 @@ header {
 .section-four .content,
 button {
     background: #3882F6;
+
+    border-radius: 5px;  
 }
 
 .text {
