@@ -168,39 +168,13 @@ header {
     align-self: flex-end;
 }
 
-.section-four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    /* height: 300px; */
-    
-}
 
-.section-four .content,
+
 button {
     background: #3882F6;
 }
 
-.section-four .content {
-    width: 900px;
-    height: 100px;
-
-    padding: 24px 100px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.text p {
-    margin: 0;
-}
-
-.text .p1 {
-    font-size: 18px;
-    font-weight: bold;
-}
 
 footer{
     display: flex;
