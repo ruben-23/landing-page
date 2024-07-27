@@ -98,6 +98,10 @@ header {
 
 .intro .info {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .section-two {
