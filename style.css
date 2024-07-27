@@ -173,16 +173,16 @@ header {
     justify-content: center;
     align-items: center;
 
-    height: 300px;
+    /* height: 300px; */
     
 }
 
-.registration,
+.section-four .content,
 button {
     background: #3882F6;
 }
 
-.registration {
+.section-four .content {
     width: 900px;
     height: 100px;
 
@@ -193,15 +193,14 @@ button {
     align-items: center;
 }
 
-.registration p {
+.text p {
     margin: 0;
 }
 
-.registration .p1 {
+.text .p1 {
     font-size: 18px;
     font-weight: bold;
 }
-
 
 footer{
     display: flex;
