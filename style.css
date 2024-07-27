@@ -34,9 +34,16 @@ h2 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
+
+
+
 
 .section-one,
 footer {
@@ -121,6 +128,7 @@ header {
     width: 200px;
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
 .course p {
@@ -169,12 +177,38 @@ header {
 }
 
 
+.section-four {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.section-four .content {
+    width: 900px;
+    height: 100px;
 
+    padding: 24px 120px;
+    margin: 100px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-four .content,
 button {
     background: #3882F6;
 }
 
+.text {
+    flex-shrink: 0;
+}
+
+.content .p1 {
+    font-size: 18px;
+    font-weight: 800;
+}
 
 footer{
     display: flex;
