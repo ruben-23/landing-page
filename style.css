@@ -61,12 +61,14 @@ a,
 .section-one {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .section-one .content {
     display: flex;
     flex-direction: column;
+    padding: 100px;
+    padding-top: 0;
 }
 
 header {
@@ -77,7 +79,7 @@ header {
 
 .intro {
     padding-top: 52px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     gap: 24px;
 
     display: flex;
