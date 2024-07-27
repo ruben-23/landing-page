@@ -106,7 +106,6 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 
-
     gap: 48px;
 
 }
@@ -138,23 +137,24 @@ header {
 .section-three {
     background: #E5E7EB;
     padding: 32px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .section-three .content {
-    margin: 100px;    
+    margin: 100px 0;    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
 }
 
 .section-three p {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    width: 700px;
-}
+    margin: 0; 
+} 
 
 .quote {
     color: #1F2937;
@@ -164,8 +164,8 @@ header {
 }
 
 .credit {
-    padding-right: 152px;
     font-weight: bold;
+    align-self: flex-end;
 }
 
 .section-four {
