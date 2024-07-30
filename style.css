@@ -197,20 +197,20 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: 0 30px;
 }
 
 .section-four .content {
     width: 900px;
     height: 100px;
 
-    padding: 32px 120px;
+    padding: 32px 110px;
     margin: 100px 0;
 
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 
     gap: 16px;
 }
